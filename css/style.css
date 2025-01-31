@@ -1,0 +1,161 @@
+/* All Common Css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  /* if full website has 1 font family  */
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+/* All Common Css End */
+
+/* Header Part Start  */
+#header {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  padding: 0 37px;
+  color: black;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  line-height: 100px;
+  transition: 0.4s;
+}
+.menu ul li a:hover {
+  color: rgb(190, 13, 13);
+}
+.icon_flex {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+/* Header Part End */
+
+/* Banner Part Start  */
+#banner {
+}
+.banner_bg {
+  background: url(../images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 155px;
+  padding-bottom: 115px;
+  border-radius: 10px;
+}
+.banner_text {
+  width: 50%;
+  padding: 65px 75px 35px 40px;
+  background: #fff3e3;
+  margin-left: auto;
+}
+.banner_text h2 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #333333;
+}
+.banner_text h1 {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  font-family: "Poppins", serif;
+  color: #b88e2f;
+}
+.banner_text p {
+  padding-right: 65px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Poppins", serif;
+  color: #333333;
+}
+.banner_text a {
+  padding: 25px 72px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #b88e2f;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* Banner Part End */
+#room {
+  padding-top: 65px;
+  padding-bottom: 10px;
+}
+.common_title {
+  text-align: center;
+}
+.common_title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Poppins", serif;
+  padding-bottom: 20px;
+}
+.common_title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  font-family: "Poppins", serif;
+}
+.room_flex{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.room_flex .room{
+  width: 32%;
+}
+.room_flex .room img{
+  width: 100%;
+}
+
+/* Room Part Start  */
+
+/* Room Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
