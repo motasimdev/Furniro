@@ -132,21 +132,21 @@ p {
   color: #666666;
   font-family: "Poppins", serif;
 }
-.room_flex{
+.room_flex {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
-.room_flex .room{
+.room_flex .room {
   width: 32%;
 }
-.room_flex .room img{
+.room_flex .room img {
   width: 100%;
 }
-.room_text{
+.room_text {
   text-align: center;
 }
-.room_text h4{
+.room_text h4 {
   padding-top: 35px;
   padding-bottom: 65px;
   font-size: 24;
@@ -159,8 +159,22 @@ p {
 
 /* Room Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Product Part Start  */
+#product {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.product_flex {
+  display: flex;
+}
+.product_item {
+  width: 22%;
+}
+.product_item img{
+  width: 100%;
+}
+
+/* Product Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
