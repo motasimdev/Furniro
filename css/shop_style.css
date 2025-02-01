@@ -322,6 +322,7 @@ p {
 }
 .quality_flex {
   display: flex;
+  justify-content: space-between;
 }
 .quality_flex_item {
   /* width: 25%; */
