@@ -112,6 +112,8 @@ p {
   text-transform: uppercase;
 }
 /* Banner Part End */
+
+/* Room Part Start  */
 #room {
   padding-top: 65px;
   padding-bottom: 10px;
@@ -154,9 +156,6 @@ p {
   color: #333333;
   font-family: "Poppins", serif;
 }
-
-/* Room Part Start  */
-
 /* Room Part End */
 
 /* Product Part Start  */
@@ -172,6 +171,28 @@ p {
 }
 .product_item img{
   width: 100%;
+}
+.product_image{
+  position: relative;
+}
+.product_image .badge{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #E97171;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.product_image .badge p{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Product Part End */
