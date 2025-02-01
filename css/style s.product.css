@@ -63,19 +63,47 @@
 
   /* Show Prdct Start  */
   #show_p{
-    padding: 50px 0;
+    padding: 45px 0;
     background: #F9F1E7;
   }
   .show_p_flex{
     display: flex;
+    align-items: center;
   }
-  .show_p_flex_item{
-    
+  .show_p_flex_one p {
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+  }
+  .show_p_flex_one span{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .show_p_flex_two p{
+    margin-left: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+  }
+  .show_p_flex_two p::before{
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 0;
+    width: 2px;
+    height: 37px;
+    background: #9F9F9F;
   }
   /* Show Prdct End */ 
 
-  /* Show Prdct Start  */
-  /* Show Prdct End */
+  /* Single Product Start  */
+  
+  /* Single Product End */
 
   /* Show Prdct Start  */
   /* Show Prdct End */
