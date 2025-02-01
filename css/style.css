@@ -303,6 +303,10 @@ p {
   font-family: "Poppins", serif;
   color: #b88e2f;
   border: 2px solid #b88e2f;
+  transition: .4s;
+}
+.product_show a:hover{
+  background: #fff3e3;
 }
 /* Product Part End */
 
