@@ -271,6 +271,35 @@ p {
 .product_contant .social i{
   margin-right: 5px;
 }
+.badge_new{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #2EC1AC;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.badge_new p{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product_show{
+  text-align: center;
+}
+.product_show a{
+  padding: 22px 122px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #B88E2F;
+  border: 2px solid #B88E2F;
+}
 /* Product Part End */
 
 /* Banner Part Start  */
