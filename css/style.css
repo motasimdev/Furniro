@@ -143,6 +143,17 @@ p {
 .room_flex .room img{
   width: 100%;
 }
+.room_text{
+  text-align: center;
+}
+.room_text h4{
+  padding-top: 35px;
+  padding-bottom: 65px;
+  font-size: 24;
+  font-weight: 600;
+  color: #333333;
+  font-family: "Poppins", serif;
+}
 
 /* Room Part Start  */
 
