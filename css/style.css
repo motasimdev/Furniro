@@ -229,10 +229,28 @@ p {
 }
 .product_overly{
   width: 100%;
-  background: black;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 1;
+  transition: .4s;
+}
+.product_item:hover .product_overly{
+  opacity: 1;
+}
+.product_contant .product_btn a{
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #B88E2F;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* Product Part End */
 
