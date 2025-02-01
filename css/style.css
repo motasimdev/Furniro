@@ -308,12 +308,15 @@ p {
 
 /* Footer Part Start  */
 #footer {
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .footer_flex {
   width: 100%;
   display: flex;
   padding: 50px 50px;
+  -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
+box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
 }
 .footer_flex_one {
   width: 35%;
@@ -376,6 +379,9 @@ p {
   text-transform: uppercase;
   color: #000000;
   border-bottom: 2px solid black;
+}
+.cpyright{
+  
 }
 /* Footer Part End */
 
