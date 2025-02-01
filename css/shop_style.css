@@ -324,15 +324,20 @@ p {
   display: flex;
 }
 .quality_flex_item {
-  width: 25%;
+  /* width: 25%; */
+  display: flex;
 }
-.quality_flex_item h2 {
-  display: inline-block;
+.quality_flex_item_two{
+    margin-left: 10px;
+}
+.quality_flex_item_two h2 {
+    padding-top: 5px;
+    padding-bottom: 15px;
   font-size: 25px;
   font-weight: 600;
   color: #242424;
 }
-.quality_flex_item p {
+.quality_flex_item_two p {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
