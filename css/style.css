@@ -162,7 +162,9 @@ p {
 #product {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: ;
+  -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
 }
 .product_flex {
   display: flex;
@@ -174,23 +176,23 @@ p {
   position: relative;
   margin-bottom: 35px;
 }
-.product_item img{
+.product_item img {
   width: 100%;
   display: block;
 }
-.product_image{
+.product_image {
   position: relative;
 }
-.product_image .badge{
+.product_image .badge {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #E97171;
+  background: #e97171;
   position: absolute;
   top: 20px;
   right: 20px;
 }
-.product_image .badge p{
+.product_image .badge p {
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", serif;
@@ -200,38 +202,38 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.product_text{
+.product_text {
   padding: 15px;
-  background: #F4F5F7;
+  background: #f4f5f7;
 }
-.product_text h2{
+.product_text h2 {
   font-size: 24px;
   font-weight: 600;
   font-family: "Poppins", serif;
-  color: #3A3A3A;
+  color: #3a3a3a;
 }
-.product_text h4{
+.product_text h4 {
   padding: 15px 0;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", serif;
   color: #898989;
 }
-.product_text p{
+.product_text p {
   font-size: 20px;
   font-weight: 600;
   font-family: "Poppins", serif;
-  color: #3A3A3A;
+  color: #3a3a3a;
   padding-bottom: 10px;
 }
-.product_text del{
+.product_text del {
   padding-left: 5px;
   font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", serif;
-  color: #B0B0B0;
+  color: #b0b0b0;
 }
-.product_overly{
+.product_overly {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
@@ -239,24 +241,24 @@ p {
   top: 0;
   left: 0;
   opacity: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
-.product_item:hover .product_overly{
+.product_item:hover .product_overly {
   opacity: 1;
 }
-.product_contant .product_btn a{
+.product_contant .product_btn a {
   padding: 15px 20px;
   font-size: 16px;
   font-weight: 600;
   font-family: "Poppins", serif;
-  color: #B88E2F;
+  color: #b88e2f;
   background: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.product_contant .social{
+.product_contant .social {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -264,24 +266,24 @@ p {
   width: 100%;
   text-align: center;
 }
-.product_contant .social a{
+.product_contant .social a {
   color: #ffffff;
   font-size: 15px;
   margin: 10px;
 }
-.product_contant .social i{
+.product_contant .social i {
   margin-right: 5px;
 }
-.badge_new{
+.badge_new {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #2EC1AC;
+  background: #2ec1ac;
   position: absolute;
   top: 20px;
   right: 20px;
 }
-.badge_new p{
+.badge_new p {
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", serif;
@@ -291,57 +293,57 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.product_show{
+.product_show {
   text-align: center;
 }
-.product_show a{
+.product_show a {
   padding: 22px 122px;
   font-size: 16px;
   font-weight: 600;
   font-family: "Poppins", serif;
-  color: #B88E2F;
-  border: 2px solid #B88E2F;
+  color: #b88e2f;
+  border: 2px solid #b88e2f;
 }
 /* Product Part End */
 
 /* Footer Part Start  */
-#footer{
+#footer {
   padding-bottom: 10px;
 }
-.footer_flex{
+.footer_flex {
   width: 100%;
   display: flex;
   padding: 50px 50px;
 }
-.footer_flex_one{
+.footer_flex_one {
   width: 35%;
 }
-.footer_flex_one h2{
+.footer_flex_one h2 {
   padding-bottom: 60px;
   font-size: 24px;
   font-weight: 700;
   font-family: "Poppins", serif;
   color: #000000;
 }
-.footer_flex_one p{
+.footer_flex_one p {
   padding-right: 91px;
   font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", serif;
-  color: #9F9F9F;
+  color: #9f9f9f;
   line-height: 25px;
 }
-.footer_flex_two{
+.footer_flex_two {
   width: 18%;
 }
-.footer_flex_two p{
+.footer_flex_two p {
   padding-bottom: 65px;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", serif;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
-.footer_flex_two a{
+.footer_flex_two a {
   margin-bottom: 50px;
   display: block;
   font-size: 16px;
@@ -349,23 +351,23 @@ p {
   font-family: "Poppins", serif;
   color: #000000;
 }
-.footer_flex_two a:hover{
+.footer_flex_two a:hover {
   text-decoration: underline;
 }
-.footer_flex_three p{
+.footer_flex_three p {
   padding-bottom: 65px;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", serif;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
-.footer_flex_three .home_footer_input{
+.footer_flex_three .home_footer_input {
   background: transparent;
   padding: 5px 25px 5px 0;
   border: none;
   border-bottom: 2px solid black;
 }
-.footer_flex_three a{
+.footer_flex_three a {
   margin-left: 10px;
   padding-bottom: 5px;
   font-size: 14px;
