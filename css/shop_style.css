@@ -62,6 +62,7 @@ p {
 
 /* Banner Part Start  */
 #banner {
+  padding-bottom: 10px;
 }
 .banner_bg {
   background: url(../images/shop\ banner.png);
@@ -90,9 +91,29 @@ p {
   font-weight: 300;
   color: #000000;
 }
+.banner_filter {
+  padding: 40px 0;
+  background: #f9f1e7;
+}
 .banner_filter_flex {
   display: flex;
   justify-content: space-between;
+}
+.banner_filter_one {
+  width: 50%;
+}
+.banner_filter_one a {
+  vertical-align: text-top;
+}
+.banner_filter_one p {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.banner_icon{
+ 
 }
 /* Banner Part End */
 
