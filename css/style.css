@@ -313,12 +313,13 @@ p {
 .footer_flex {
   width: 100%;
   display: flex;
-  padding: 50px 50px;
-  -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
--moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
-box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
+  padding: 50px 0;
+  -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
 }
 .footer_flex_one {
+  padding-left: 50px;
   width: 35%;
 }
 .footer_flex_one h2 {
@@ -380,7 +381,7 @@ box-shadow: 0px 0.5px 0.5px 0px rgba(0,0,0,0.23);
   color: #000000;
   border-bottom: 2px solid black;
 }
-.cpyright{
+.cpyright {
   padding: 20px 0;
   text-align: center;
 }
