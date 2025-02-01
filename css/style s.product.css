@@ -156,13 +156,21 @@ p,
   }
   .product_item_two .icons p{
     padding: 0 0;
+    padding-left: 15px;
     display: inline-block;
     font-size: 13px;
     font-weight: 400;
     color: #9F9F9F;
+    position: relative;
   }
   .product_item_two .icons p::before{
-    
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    height: 37px;
+    width: 1px;
+    background: #9F9F9F;
   }
   .product_item_two p{
     padding-top: 22px;
