@@ -140,7 +140,7 @@ p {
   display: block;
 }
 .product_item_two {
-  margin-left: 100px;
+  width: 45%;
 }
 .product_item_two h1 {
   font-size: 42px;
@@ -185,6 +185,9 @@ p {
   font-weight: 400;
   color: #000000;
   line-height: 25px;
+}
+.product_item_p_one{
+
 }
 .product_item_p_two {
   padding-bottom: 60px;
