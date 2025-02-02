@@ -135,6 +135,50 @@
     background: #F9F1E7;
     border-radius: 10px;
   }
+  .item_text{
+  }
+  .item_text h1 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .item_text h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .item_text .icons h4 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .item_text .icons i {
+    width: 20px;
+    height: 20px;
+    color: #ffc700;
+  }
+  .item_text .icons p {
+    padding: 0 0;
+    padding-left: 15px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #9f9f9f;
+    position: relative;
+  }
+  .item_text .icons p::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    height: 25px;
+    width: 1px;
+    background: #9f9f9f;
+  }
   /* Comp Item Part End  */ 
 
   /* Banner Part Start  */
