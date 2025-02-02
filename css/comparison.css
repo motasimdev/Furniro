@@ -231,7 +231,7 @@ p {
   box-shadow: 0.5px 0px 0.5px 0px rgba(0, 0, 0, 0.39);
 }
 .comparison_flex_one h3 {
-    padding-top: 50px;
+  padding-top: 50px;
   padding-bottom: 50px;
   font-size: 28px;
   font-weight: 500;
@@ -246,20 +246,38 @@ p {
 .comparison_flex_one .part_two {
   padding-top: 50px;
 }
-.comparison_flex_one .part_zero{
-    padding-top: 119px;
+.comparison_flex_one .part_zero {
+  padding-top: 119px;
 }
-.comparison_flex_one .part_three{
-    padding: 0 30px;
+.comparison_flex_one .part_three {
+  padding: 0 30px;
 }
-.comparison_flex_one .warnty_one p{
-    padding-bottom: 126px;
+.comparison_flex_one .warnty_one p {
+  padding-bottom: 158px;
 }
-.comparison_flex_one .warnty_two p{
-    line-height: 25px;
+.comparison_flex_one .warnty_two p {
+  line-height: 25px;
 }
-.comparison_flex_one .part_three .part_four{
-    
+.comparison_flex_one .part_three .part_four {
+  padding-top: 119px;
+  padding-bottom: 17px;
+  line-height: 20px;
+}
+.warnty_three p {
+    padding-top: 75px;
+}
+.warnty_four p {
+    padding-top: 75px;
+}
+.warnty_five p {
+    padding-top: 98px;
+}
+.comparison_flex_one a{
+    padding: 20px 30px;
+    background: #B88E2F;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
 }
 /* Comparison Part End  */
 
