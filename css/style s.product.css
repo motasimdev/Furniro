@@ -60,6 +60,36 @@ p {
   display: flex;
   align-items: center;
   column-gap: 45px;
+  position: relative;
+}
+.shop_cart {
+  color: #000;
+}
+.cart_overly {
+  padding: 30px 0px 0 25px;
+  width: 350px;
+  height: 750px;
+  background: #ecbfbf;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cart_overly h2 {
+  display: inline-block;
+  padding-right: 105px;
+  padding-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.13);
+}
+.cart_img img{
+  display: block;
+  background: #EFE6D1;
+  border-radius: 10px;
 }
 /* Header Part End */
 
@@ -186,8 +216,7 @@ p {
   color: #000000;
   line-height: 25px;
 }
-.product_item_p_one{
-
+.product_item_p_one {
 }
 .product_item_p_two {
   padding-bottom: 60px;
@@ -312,43 +341,43 @@ p {
 /* Single Product End */
 
 /* Description Start  */
-#description{
+#description {
   padding-top: 55px;
   padding-bottom: 60px;
   border-bottom: 1px solid black;
 }
-.des_title{
+.des_title {
   text-align: center;
   margin-bottom: 45px;
 }
-.des_title .main_title{
+.des_title .main_title {
   display: inline-block;
   font-size: 24px;
   font-weight: 500;
   color: #000000;
 }
-.des_title p{
+.des_title p {
   padding: 0 15px;
   display: inline-block;
   font-size: 24px;
   font-weight: 400;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
-.des_des p{
+.des_des p {
   padding-bottom: 35px;
   font-size: 16px;
   font-weight: 400;
-  color: #9F9F9F;
+  color: #9f9f9f;
   line-height: 30px;
 }
-.des_img_flex{
+.des_img_flex {
   display: flex;
   justify-content: space-between;
 }
-.des_img img{
+.des_img img {
   display: block;
   width: 100%;
-  background: #F9F1E7;
+  background: #f9f1e7;
 }
 /* Description End */
 
@@ -507,9 +536,9 @@ p {
   font-family: "Poppins", serif;
   color: #b88e2f;
   border: 2px solid #b88e2f;
-  transition: .4s;
+  transition: 0.4s;
 }
-.product_show a:hover{
+.product_show a:hover {
   background: #fff3e3;
 }
 /* Product Part End */
