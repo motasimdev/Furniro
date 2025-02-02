@@ -397,6 +397,13 @@ p {
 .product_item_p_two .nmbr_two span {
   padding-right: 10px;
 }
+.product_item_p_two .nmbr_two a {
+  padding: 0;
+  background: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
 
 .product_item_p_three {
   display: flex;
