@@ -351,11 +351,21 @@ p {
 
 /* Product Part Start  */
 #product {
-  padding-top: 30px;
+  padding-top: 70px;
   padding-bottom: 30px;
   -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
   box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+}
+.common_title {
+  text-align: center;
+}
+.common_title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Poppins", serif;
+  padding-bottom: 35px;
 }
 .product_flex {
   display: flex;
