@@ -64,15 +64,13 @@ p {
 }
 
 /* cart overly start  */
-.shop_cart {
-  color: #000;
-}
+
 .cart_overly {
   padding: 30px 30px 0 25px;
   width: 350px;
   height: 720px;
   background: #ffffff;
-  z-index: 2;
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
@@ -168,7 +166,14 @@ p {
   padding: 6px 30px;
   border: 1px solid black;
   border-radius: 50px;
-
+}
+.shop_cart {
+  color: #000;
+  transition: .4s;
+}
+.shop_cart:hover .cart_overly{
+  opacity: 1;
+  z-index: 1;
 }
 /* Header Part End */
 
