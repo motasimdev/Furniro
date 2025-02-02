@@ -101,7 +101,40 @@
   .comp_item_flex{
     display: flex;
   }
-  
+  .comp_item_flex_one{
+    width: 20%;
+  }
+  .comp_item_flex_one h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 35px;
+  }
+  .comp_item_flex_one p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+    border-bottom: 1px solid #727272;
+  }
+  .comp_item_flex_two{
+    width: 25%;
+  }
+  .comp_item_flex_two img{
+    display: block;
+    
+  }
+  .comp_item_flex_two .item_img{
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 280px;
+    height: 177px;
+    background: #F9F1E7;
+    border-radius: 10px;
+  }
   /* Comp Item Part End  */ 
 
   /* Banner Part Start  */
