@@ -94,24 +94,24 @@ p {
 /* Banner Part End  */
 
 /* Bill Details Part Start   */
-#bill{
+#bill {
   padding-top: 110px;
   padding-bottom: 120px;
 }
-.bill_flex{
+.bill_flex {
   display: flex;
   justify-content: space-between;
 }
-.bill_flex_one{
+.bill_flex_one {
   width: 45%;
 }
-.bill_flex_one h1{
+.bill_flex_one h1 {
   padding-bottom: 45px;
   font-size: 36px;
   font-weight: 600;
   color: #000000;
 }
-.bill_flex_one .name p{
+.bill_flex_one .name p {
   padding-bottom: 25px;
   display: inline-block;
   font-size: 16px;
@@ -126,87 +126,94 @@ p {
   width: 210px;
   height: 75px;
   border-radius: 10px;
-  border: 1px solid #9F9F9F ;
+  border: 1px solid #9f9f9f;
 }
-.bill_flex_one .name .f_nm{
+.bill_flex_one .name .f_nm {
   margin-right: 82px;
 }
-.bill_flex_one .other h2{
+.bill_flex_one .other h2 {
   font-size: 16px;
   font-weight: 500;
   color: #000000;
 }
-.bill_flex_one .other input{
+.bill_flex_one .other input {
   margin-top: 20px;
   margin-bottom: 35px;
   padding-left: 20px;
   width: 492px;
   height: 75px;
   border-radius: 10px;
-  border: 1px solid #9F9F9F ;
+  border: 1px solid #9f9f9f;
 }
 
 /* flex two start  */
-.bill_flex_two{
+.bill_flex_two {
   width: 45%;
   margin-top: 50px;
 }
-.bill_flex_two .line_one{
+.bill_flex_two .line_one {
   display: flex;
   justify-content: space-between;
 }
-.bill_flex_two .line_one h2{
+.bill_flex_two .line_one h2 {
   font-size: 24px;
   font-weight: 500;
   color: #000000;
 }
-.bill_flex_two .line_two{
+.bill_flex_two .line_two {
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
 }
-.bill_flex_two .line_two p{
+.bill_flex_two .line_two p {
   font-size: 16px;
   font-weight: 400;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
-.bill_flex_two span{
+.bill_flex_two span {
+  padding-left: 20px;
   font-size: 12px;
   font-weight: 400;
   color: #000000;
 }
-.bill_flex_two .line_two h3{
+.bill_flex_two .line_two h3 {
   font-size: 16px;
   font-weight: 300;
   color: #000000;
 }
-.bill_flex_two .line_three{
+.bill_flex_two .line_three {
   display: flex;
   justify-content: space-between;
 }
-.bill_flex_two .line_three h4{
+.bill_flex_two .line_three h4 {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
 }
-.bill_flex_two .line_three h3{
+.bill_flex_two .line_three h3 {
   font-size: 16px;
   font-weight: 300;
   color: #000000;
 }
-.bill_flex_two .line_four{
+.bill_flex_two .line_four {
+  margin-top: 30px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-between;
+  -webkit-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.23);
 }
-.bill_flex_two .line_four h4{
+.bill_flex_two .line_four h4 {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
 }
-.bill_flex_two .line_three h4{
-  font-size: 16px;
-  font-weight: 400;
-  color: #000000;
-  
+.bill_flex_two .line_four h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #b88e2f;
 }
 /* Bill Details Part End   */
 
