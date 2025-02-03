@@ -1,96 +1,129 @@
 /* All Common Css Start  */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", serif;
-  }
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
-  ul,
-  ol {
-    list-style-type: none;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
-  }
-  .container {
-    width: 1240px;
-    margin: 0 auto;
-  }
-  /* All Common Css End */
-  
-  /* Header Part Start  */
-  #header {
-    width: 100%;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .menu ul li {
-    display: inline-block;
-  }
-  .menu ul li a {
-    padding: 0 37px;
-    color: black;
-    font-size: 16px;
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    line-height: 100px;
-    transition: 0.4s;
-  }
-  .menu ul li a:hover {
-    color: rgb(190, 13, 13);
-  }
-  .icon_flex {
-    display: flex;
-    align-items: center;
-    column-gap: 45px;
-  }
-  /* Header Part End */
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+/* All Common Css End */
+
+/* Header Part Start  */
+#header {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  padding: 0 37px;
+  color: black;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  line-height: 100px;
+  transition: 0.4s;
+}
+.menu ul li a:hover {
+  color: rgb(190, 13, 13);
+}
+.icon_flex {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+/* Header Part End */
 
 /* Banner Part Start  */
 #banner {
-    padding-bottom: 10px;
-  }
-  .banner_bg {
-    background: url(../images/shop\ banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .banner_overly {
-    padding-top: 111px;
-    padding-bottom: 111px;
-    text-align: center;
-  }
-  .banner_overly h2 {
-    font-size: 48px;
-    font-weight: 500;
-    color: #000000;
-  }
-  .banner_overly h5 {
-    padding-top: 20px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
-  }
-  .banner_overly .p {
-    font-size: 16px;
-    font-weight: 300;
-    color: #000000;
-  }
-  /* Banner Part End  */
+  padding-bottom: 10px;
+}
+.banner_bg {
+  background: url(../images/shop\ banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner_overly {
+  padding-top: 111px;
+  padding-bottom: 111px;
+  text-align: center;
+}
+.banner_overly h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #000000;
+}
+.banner_overly h5 {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.banner_overly .p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+/* Banner Part End  */
 
-  
+/* Bill Details Part Start   */
+#bill{
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+.bill_flex_one{
+  width: 45%;
+}
+.bill_flex_one h1{
+  padding-bottom: 45px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+}
+.bill_flex_one .name p{
+  padding-bottom: 25px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.bill_flex_one .name .l_nm {
+  padding-left: 210px;
+}
+.bill_flex_one .name input {
+  padding-left: 210px;
+}
+/* Bill Details Part End   */
+
+/* Bill Details Part Start   */
+/* Bill Details Part End   */
+
+/* Bill Details Part Start   */
+/* Bill Details Part End   */
