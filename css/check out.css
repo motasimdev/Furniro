@@ -98,6 +98,10 @@ p {
   padding-top: 110px;
   padding-bottom: 120px;
 }
+.bill_flex{
+  display: flex;
+  justify-content: space-between;
+}
 .bill_flex_one{
   width: 45%;
 }
@@ -136,12 +140,74 @@ p {
   margin-top: 20px;
   margin-bottom: 35px;
   padding-left: 20px;
-  width: 512px;
+  width: 492px;
   height: 75px;
   border-radius: 10px;
   border: 1px solid #9F9F9F ;
 }
 
+/* flex two start  */
+.bill_flex_two{
+  width: 45%;
+  margin-top: 50px;
+}
+.bill_flex_two .line_one{
+  display: flex;
+  justify-content: space-between;
+}
+.bill_flex_two .line_one h2{
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.bill_flex_two .line_two{
+  display: flex;
+  justify-content: space-between;
+}
+.bill_flex_two .line_two p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+}
+.bill_flex_two span{
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+.bill_flex_two .line_two h3{
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+.bill_flex_two .line_three{
+  display: flex;
+  justify-content: space-between;
+}
+.bill_flex_two .line_three h4{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.bill_flex_two .line_three h3{
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+.bill_flex_two .line_four{
+  display: flex;
+  justify-content: space-between;
+}
+.bill_flex_two .line_four h4{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.bill_flex_two .line_three h4{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  
+}
 /* Bill Details Part End   */
 
 /* Bill Details Part Start   */
