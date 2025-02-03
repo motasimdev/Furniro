@@ -215,6 +215,45 @@ p {
   font-weight: 700;
   color: #b88e2f;
 }
+
+.bill_flex_two .details{
+padding-top: 30px;
+}
+.bill_flex_two .details h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.bill_flex_two .details i {
+  padding-right: 20px;
+}
+.bill_flex_two .details p {
+  padding-top: 20px;
+  padding-bottom: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #9F9F9F;
+  line-height: 30px;
+}
+.bill_flex_two .details h3 {
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+}
+.bill_flex_two .details .p {
+  padding-top: 20px;
+  padding-bottom: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 30px;
+}
+.bill_flex_two .details .prvcy{
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
 /* Bill Details Part End   */
 
 /* Bill Details Part Start   */
