@@ -117,35 +117,44 @@ p {
 }
 
 .address {
-    margin-top: 125px;
+  margin-bottom: 40px;
+  margin-top: 125px;
   display: flex;
   justify-content: space-between;
 }
-.address .txt h2{
-    padding-bottom: 10px;
-    font-size: 24px;
-    font-weight: 500;
-    color: #000000;
+.address .txt {
+  margin-left: 100px;
 }
-.address .txt i{
-    padding-right: 30px;
+.address .txt h2 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
 }
-.address .txt p{
-    padding-left: 47px;
-    padding-bottom: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
+.address .txt i {
+  padding-right: 30px;
 }
-.address .box h3{
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
+.address .txt p {
+  padding-left: 47px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
 }
-.address .box input{
-    width: 111px;
-    height: 24px;
-    border-radius: 15px;
-    color: #9F9F9F;
+.address .box {
+  margin-right: 110px;
+}
+.address .box h3 {
+  padding-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.address .box input {
+  padding-left: 25px;
+  width: 528px;
+  height: 75px;
+  border-radius: 10px;
+  border: 1px solid #9f9f9f;
 }
 /* Contact Part End  */
